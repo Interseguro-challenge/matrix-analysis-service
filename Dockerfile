@@ -2,7 +2,7 @@
 FROM node:19.0.1
 
 # Establece el directorio de trabajo en el contenedor
-WORKDIR /app/matrix-analysis
+WORKDIR /app/matrix-analysis-service
 
 # Copia el archivo package.json y package-lock.json
 COPY package.json .
